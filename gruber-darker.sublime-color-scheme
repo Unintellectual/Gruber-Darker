@@ -1,0 +1,138 @@
+{
+  "name": "Gruber Darker",
+  "author": "Converted from Emacs Gruber Darker",
+  "variables": {
+    "bg": "#000000",
+    "bg1": "#282828",
+    "bg2": "#453d41",
+    "fg": "#e4e4ef",
+    "fg1": "#f4f4ff",
+    "yellow": "#ffdd33",
+    "red": "#f43841",
+    "red1": "#c73c3f",
+    "green": "#73c936",
+    "blue": "#96a6c8",
+    "purple": "#9e95c7",
+    "brown": "#cc8c3c",
+    "quartz": "#95a99f"
+  },
+  "globals": {
+    "background": "var(bg)",
+    "foreground": "var(fg)",
+    "caret": "var(yellow)",
+    "selection": "var(bg1)",
+    "line_highlight": "var(bg1)",
+    "selection_border": "var(bg2)",
+    "inactive_selection": "var(bg2)",
+    "guide": "var(bg2)",
+    "active_guide": "var(blue)",
+    "stack_guide": "var(bg2)"
+  },
+  "rules": [
+           {
+            "scope": "meta.semantic-token",
+            "background": "#00000101"
+        },
+    {
+      "scope": "comment",
+      "foreground": "var(brown)"
+    },
+    {
+      "scope": "string",
+      "foreground": "var(green)"
+    },
+    {
+      "scope": "constant.numeric",
+      "foreground": "var(purple)"
+    },
+    {
+      "scope": "constant.language",
+      "foreground": "var(quartz)"
+    },
+    {
+      "scope": "variable",
+      "foreground": "var(fg1)"
+    },
+    {
+      "scope": "keyword",
+      "foreground": "var(yellow)",
+      "font_style": "bold"
+    },
+    {
+      "scope": "storage",
+      "foreground": "var(yellow)",
+      "font_style": "bold"
+    },
+    {
+      "scope": "entity.name.function",
+      "foreground": "var(blue)"
+    },
+    {
+      "scope": "entity.name.class",
+      "foreground": "var(blue)",
+      "font_style": "bold"
+    },
+    {
+      "scope": "support.function",
+      "foreground": "var(blue)"
+    },
+    {
+      "scope": "invalid",
+      "foreground": "var(bg)",
+      "background": "var(red)"
+    },
+    {
+      "scope": "markup.heading",
+      "foreground": "var(blue)",
+      "font_style": "bold"
+    },
+    {
+      "scope": "markup.bold",
+      "foreground": "var(quartz)",
+      "font_style": "bold"
+    },
+    {
+      "scope": "markup.italic",
+      "foreground": "var(quartz)",
+      "font_style": "italic"
+    },
+    {
+      "scope": "markup.underline",
+      "foreground": "var(blue)",
+      "font_style": "underline"
+    },
+    {
+      "scope": "markup.inserted",
+      "foreground": "var(green)"
+    },
+    {
+      "scope": "markup.deleted",
+      "foreground": "var(red)"
+    },
+    {
+      "scope": "markup.changed",
+      "foreground": "var(yellow)"
+    },
+    {
+      "scope": "markup.raw",
+      "foreground": "var(quartz)"
+    },
+    {
+      "scope": "markup.quote",
+      "foreground": "var(blue)"
+    },
+    {
+      "scope": "markup.list",
+      "foreground": "var(yellow)"
+    },
+    {
+      "scope": "markup.bold",
+      "font_style": "bold"
+    },
+    {
+      "scope": "markup.italic",
+      "font_style": "italic"
+    }
+  ]
+}
+
